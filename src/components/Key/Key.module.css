@@ -1,0 +1,25 @@
+.key {
+  border-radius: 100px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  outline: none;
+}
+
+.key:active {
+  opacity: 0.9;
+}
+
+.digit {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.modifier {
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.operation {
+  background-color: orange;
+}

@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  grid-template-rows: repeat(5, 60px);
+  gap: 10px;
+  grid-template-areas:
+    "ac sign percent divide"
+    "digit-7 digit-8 digit-9 times"
+    "digit-4 digit-5 digit-6 minus"
+    "digit-1 digit-2 digit-3 plus"
+    "digit-0 digit-0 decimal-mark eql";
+}
